@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+# passlib[bcrypt] removed: using built-in hashlib for password hashing to avoid
+# compatibility issues with bcrypt in the current environment
+python-jose[cryptography]
+python-dotenv
+httpx
+openai
+alpha_vantage
+newsapi-python
+yfinance
+aiofiles
